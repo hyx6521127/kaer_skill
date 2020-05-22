@@ -22,9 +22,9 @@ const SiderBar: SFC<IMenuProp> = (props) => {
   return (
     <div className="menu">
       <Menu selectedKeys={[menuKey]} onSelect={routerChange} theme="dark">
-        <Menu.Item key="random">交易记录</Menu.Item>
-        <Menu.Item key="circle">交易统计</Menu.Item>
-        <Menu.Item key="recommend">推荐楼盘</Menu.Item>
+        <Menu.Item key="random">随机技能</Menu.Item>
+        {/* <Menu.Item key="circle">交易统计</Menu.Item>
+        <Menu.Item key="recommend">推荐楼盘</Menu.Item> */}
       </Menu>
     </div>
   )

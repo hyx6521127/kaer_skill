@@ -1,18 +1,18 @@
-import bingImg from '../../assets/bing.png'
 import { disappearTime } from './timeControl'
+import SkillPic from './SkillPic'
 
 export default class SkillObj {
     private type: string
     private imgObj: HTMLImageElement
     private create_time: number
     private size: number = 100
-    private position_x: number = Math.floor(Math.random() * 200)
-    private position_y: number = Math.floor(Math.random() * 50)
+    private position_x: number = Math.floor(Math.random() * 1100)
+    private position_y: number = Math.floor(Math.random() * 600)
     constructor(type: string) {
         this.type = type
         this.create_time = performance.now()
         this.imgObj = new Image()
-        this.imgObj.src = bingImg
+        this.imgObj.src = SkillPic[type]
     }
 
     getSize() {

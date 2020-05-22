@@ -1,2 +1,2 @@
-export const refreshTime = 1000
-export const disappearTime = 2000
+export const refreshTime = 2000
+export const disappearTime = 6000

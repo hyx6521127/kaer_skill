@@ -13,7 +13,7 @@ const MainLayout: SFC<ILayoutProps> = () => {
     <Layout className={style.layout}>
       <Sider>
         <div className={style.logo}>
-          成都房市统计系统
+          卡尔技能练习系统
         </div>
           <Menu />
       </Sider>
